@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+
+    <ImageView
+        android:id="@+id/main_IMG_back"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:scaleType="centerCrop"/>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+        <TextView
+            android:id="@+id/main_LBL_city"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="CityName" />
+
+        <TextView
+            android:id="@+id/main_LBL_temp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Temperature" />
+
+        <com.majorik.sparklinelibrary.SparkLineLayout
+            android:id="@+id/main_SPC_graph"
+            android:layout_width="match_parent"
+            android:layout_height="100dp"
+            android:background="#212121"
+            app:s_line_color="#fed32c"
+            app:s_line_thickness="4dp"
+            app:s_marker_background_color="#fed32c"
+            app:s_marker_width="8dp" />
+
+    </LinearLayout>
+
+
+</RelativeLayout>
