@@ -29,7 +29,7 @@ public class MainActivity extends AppCompatActivity {
     }
 
     private void privacyPolicyPage() {
-        
+
     }
 
     private void settings() {

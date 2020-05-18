@@ -4,6 +4,7 @@ import android.content.Context;
 import android.widget.Toast;
 
 import com.guy.secureweatherapp.model.Location;
+import com.guy.secureweatherapp.secured.Constants;
 
 import org.json.JSONException;
 import org.json.JSONObject;
