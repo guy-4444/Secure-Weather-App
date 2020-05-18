@@ -23,6 +23,21 @@ public class MainActivity extends AppCompatActivity {
 
         initBackground();
         initData();
+        splashScreen();
+        settings();
+        privacyPolicyPage();
+    }
+
+    private void privacyPolicyPage() {
+        
+    }
+
+    private void settings() {
+
+    }
+
+    private void splashScreen() {
+
     }
 
     private void initData() {
