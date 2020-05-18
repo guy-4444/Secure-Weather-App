@@ -36,6 +36,7 @@ public class MyLocationManager {
 
                 // do some staff to accurate location
                 Log.i("Location_lat_lng", "Latitude= " + location.getLatitude() + " Longitude= " + location.getLongitude());
+                
                 if (callBack_location != null) {
                     callBack_location.locationReady(true, location.getLatitude(), location.getLongitude());
                 }
