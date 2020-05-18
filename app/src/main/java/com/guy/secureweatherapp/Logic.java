@@ -3,11 +3,11 @@ package com.guy.secureweatherapp;
 import android.content.Context;
 import android.widget.Toast;
 
+import com.guy.secureweatherapp.model.Location;
+
 import org.json.JSONException;
 import org.json.JSONObject;
 
-import java.util.ArrayList;
-import java.util.Locale;
 import java.util.Random;
 
 public class Logic {

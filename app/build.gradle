@@ -37,4 +37,6 @@ dependencies {
     implementation 'com.github.majorkik:SparkLineLayout:1.0.1'
     implementation 'com.github.robinkrsingh:easylocation:0.1.0'
 
+    implementation 'com.google.code.gson:gson:2.8.6'
+
 }

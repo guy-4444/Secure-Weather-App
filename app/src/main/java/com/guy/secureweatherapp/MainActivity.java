@@ -3,22 +3,8 @@ package com.guy.secureweatherapp;
 import androidx.appcompat.app.AppCompatActivity;
 
 import android.os.Bundle;
-import android.util.Log;
-import android.widget.ImageView;
-import android.widget.TextView;
-import android.widget.Toast;
 
-import com.bumptech.glide.Glide;
-import com.majorik.sparklinelibrary.SparkLineLayout;
-import com.robin.locationgetter.EasyLocation;
-
-import org.json.JSONException;
-import org.json.JSONObject;
-
-import java.util.ArrayList;
-import java.util.Locale;
-
-import static com.guy.secureweatherapp.Constants.DAILY_BACKGROUND_API;
+import com.guy.secureweatherapp.model.Location;
 
 public class MainActivity extends AppCompatActivity {
 

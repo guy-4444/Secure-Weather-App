@@ -4,6 +4,7 @@ import android.app.Activity;
 import android.widget.ImageView;
 import android.widget.TextView;
 
+import com.guy.secureweatherapp.model.Location;
 import com.majorik.sparklinelibrary.SparkLineLayout;
 
 import java.util.Locale;

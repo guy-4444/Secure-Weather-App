@@ -1,4 +1,4 @@
-package com.guy.secureweatherapp;
+package com.guy.secureweatherapp.model;
 
 import java.util.ArrayList;
 
