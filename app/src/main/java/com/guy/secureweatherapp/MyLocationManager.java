@@ -35,8 +35,6 @@ public class MyLocationManager {
             public void getLocation(Location location) {
 
                 Log.i("Location_lat_lng", "Latitude= " + location.getLatitude() + " Longitude= " + location.getLongitude());
-
-                Toast.makeText(activity, "New Location arrived", Toast.LENGTH_SHORT).show();
                 if (callBack_location != null) {
                     callBack_location.locationReady(true, location.getLatitude(), location.getLongitude());
                 }
@@ -44,4 +42,5 @@ public class MyLocationManager {
         });
 
     }
+
 }
